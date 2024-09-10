@@ -1,0 +1,177 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>FOREXACE</title> 
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.cdnfonts.com/css/garet" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.cdnfonts.com/css/norwester" rel="stylesheet"> 
+    <link href="https://fonts.cdnfonts.com/css/euclid-circular-b" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/16edaccdd1.js" crossorigin="anonymous"></script> 
+    <script src="index.js"></script>
+</head> 
+<body> 
+    <!-- Scroll Line --> 
+    <div class="layout__area--right"></div>   
+    <div class="widgetbar-wrap unselectable" data-name="widgetbar-wrap"></div> 
+
+    <!-- Header --> 
+    <header id="header">  
+        <div class="container1"> 
+            <nav> 
+                <span>FOREXACE</span> 
+                <ul> 
+                    <li><a href="#home">Home</a></li> 
+                    <li><a href="#about">About Us</a></li> 
+                    <li><a href="#news">News</a></li> 
+                    <li><a href="#community">Community</a></li> 
+                    <li><a href="#contact">Contact</a></li> 
+                </ul> 
+            </nav> 
+            <div class="header-text"> 
+                <h1>TRADE SMARTER <span>/</span></h1> 
+                <h1>PROFIT FASTER</h1> 
+            </div> 
+        </div> 
+    </header> 
+
+    <!-- About Us --> 
+    <section id="about"> 
+        <div class="container2"> 
+            <p class="active-link" onclick="toggleList()">About Us</p> 
+        </div> 
+        <div class="container-content"> 
+            <ul> 
+                <li><span>WE OFFER:</span><br></li> 
+                <li><span>#</span>UNLIMITED SIGNALS</li> 
+                <li><span>#</span>CONSTANT NEWS UPDATES</li> 
+                <li><span>#</span>TAKING FTMO CHALLENGES FOR YOU</li> 
+            </ul> 
+        </div> 
+    </section> 
+    
+    <script> 
+        function toggleList() { 
+            var list = document.querySelector('.container-content'); 
+            list.classList.toggle('hidden'); 
+        } 
+    </script>
+    <hr> 
+
+    <!-- News --> 
+    <section id="news"> 
+        <div class="container"> 
+            <h1 class="title">News</h1> 
+            <p class="text">Stay Ahead with Real-Time.</p> 
+            <hr> 
+        </div>   
+        <div class="news-list"> 
+            <div class="work"> 
+                <a href="https://www.forexfactory.com/" target="_blank"><img src="IMG/green.jpg" alt="Forex News"></a> 
+                <div class="layer"> 
+                    <h3>Forex</h3> 
+                    <p>Keeping up with forex news is crucial for informed trading decisions, and good profit.</p> 
+                    <a href="https://www.forexfactory.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a> 
+                </div> 
+            </div> 
+            <div class="work"> 
+                <a href="https://www.forexfactory.com/calendar" target="_blank"><img src="IMG/yellow.jpg" alt="Commodities News"></a> 
+                <div class="layer"> 
+                    <h3>Commodities</h3> 
+                    <p>Stay informed about commodity news which is essential for strategic trading decisions.</p> 
+                    <a href="https://www.forexfactory.com/calendar" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a> 
+                </div> 
+            </div> 
+            <div class="work"> 
+                <a href="https://www.forexfactory.com/calendar" target="_blank"><img src="IMG/pink.jpg" alt="Indices News"></a>
+
+<div class="layer"> 
+                    <h3>Indices</h3> 
+                    <p>Monitoring indices news is key to navigating market trends effectively.</p> 
+                    <a href="https://www.forexfactory.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a> 
+                </div> 
+            </div> 
+        </div>  
+        <a href="https://www.forexfactory.com/news" target="_blank" class="btn">See More</a> 
+    </section>  
+
+    <hr>
+    
+    <!-- Community Section --> 
+    <section id="community"> 
+        <h2>Community</h2> 
+        <p>Share your ideas and interact with others!</p> 
+        <div class="community-container"> 
+            <div class="post-list"> 
+                <!-- Post 1 --> 
+                <div class="post"> 
+                    <div class="post-header"> 
+                        <img src="IMG/post1.jpg" alt="User 1 Profile Picture"> 
+                        <h3>Alanmitch20</h3> 
+                        <span>Posted 2 hours ago</span> 
+                    </div> 
+                    <p>Who hasn't traded today?</p> 
+                    <div class="post-actions"> 
+                        <button class="like-btn">Like</button> 
+                        <button class="comment-btn">Comment</button> 
+                        <button class="share-btn">Share</button> 
+                    </div> 
+                </div> 
+                <!-- Post 2 --> 
+                <div class="post"> 
+                    <div class="post-header"> 
+                        <img src="IMG/post 2.jpg" alt="User 2 Profile Picture"> 
+                        <h3>Alliejohnson</h3> 
+                        <span>Posted 1 hour ago</span> 
+                    </div> 
+                    <p>Guys! Whoo 100 pips and running!</p> 
+                    <div class="post-actions"> 
+                        <button class="like-btn">Like</button> 
+                        <button class="comment-btn">Comment</button> 
+                        <button class="share-btn">Share</button> 
+                    </div> 
+                </div> 
+                <!-- Add more posts here --> 
+            </div> 
+            <div class="new-post"> 
+                <h3>Share Your Idea</h3> 
+                <textarea placeholder="Write your post here..."></textarea> 
+                <button class="post-btn">Post</button> 
+            </div> 
+        </div> 
+    </section> 
+
+    <hr>
+
+    <!-- Contact Section --> 
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Get in Touch</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> mohamedabdiaziz@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +254700809559</p>
+                    <div class="social-icons">
+                        <a href="https://discord.gg/E8hGZM7r" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://t.me/+_idwJY1dHOJmMGVk" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="#">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="bty">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
